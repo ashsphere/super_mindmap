@@ -1,1 +1,26 @@
 # super_mindmap
+
+This project is a minimal Next.js application that implements a simple mindmap editor and stores data in Supabase.
+
+## Setup
+
+1. Install dependencies:
+
+```bash
+npm install
+```
+
+2. Create a `.env.local` file in the project root with your Supabase credentials:
+
+```env
+NEXT_PUBLIC_SUPABASE_URL=your-supabase-url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your-supabase-anon-key
+```
+
+3. Run the development server:
+
+```bash
+npm run dev
+```
+
+The mindmap will automatically save to the `sum_mindmaps` table in your Supabase project whenever you modify it.
